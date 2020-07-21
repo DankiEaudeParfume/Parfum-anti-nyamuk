@@ -19,7 +19,7 @@ a {
 /*bagian header*/
 
 header {
-    font-family:"Times new roman";
+    font-family: Times New Roman;
 }
 
 header nav {
@@ -71,8 +71,8 @@ header nav ul li a:hover {
 .btn-wrapper {
     text-align: center;
     margin-top: 10px;
-    margin-left: 45px;
-    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 10px;
 }
 
@@ -82,7 +82,8 @@ header nav ul li a:hover {
     display: inline-block;
     cursor: pointer;
    background-color: #ffc0cb;
-   transform:translateX(350%);
+ margin-left:350px;
+
 }
 
 .signup:active {
@@ -102,7 +103,8 @@ header nav ul li a:hover {
     border-radius: 5px;
     display: block;
     text-align: center;
-            font-size: 20px;
+     font-size: 20px;
+    margin: auto;
 }
 
 main {
@@ -115,6 +117,14 @@ main {
 }
 
 footer{
-height: 100px;
-background-color:#dcdcdc;
+       height: 100px;
+       background-color:#dcdcdc;
+}
+ul{
+      padding-left: 240px;
+      padding-right: 50px;
+}
+
+.header-logo{
+      padding-right:250px;
 }

@@ -78,3 +78,16 @@ footer{
 }
 .img{
 padding-left: 50px;}
+
+
+table{
+background-color:white;
+
+}
+table tr td p{
+color:black;
+}
+
+footer a{
+ color: #808080;
+}

@@ -108,3 +108,11 @@ img.tengah{
 	margin-left: auto;
 	margin-right: auto;
 }
+ul{
+      padding-left: 240px;
+      padding-right: 50px;
+}
+
+.header-logo{
+      padding-right:250px;
+}

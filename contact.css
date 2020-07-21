@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Domine', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+
+/*bagian header*/
+
+header {
+    font-family:"Times new roman";
+}
+
+header nav {
+    display: flex;
+    background-color:#dcdcdc;
+    justify-content: space-around;
+    color: #808080;
+    height: 100px;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 30px;
+    a
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 45%;
+     justify-content: space-between;
+
+}
+
+header nav ul li a {
+      color: #808080;
+    text-decoration: none;
+    font-size: 20px;
+     justify-content: space-between;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
+//////////////////////////////////////////
+main {
+    
+    background-color:#dcdcdc;
+    justify-content: space-around;
+    color: grey;
+    height: 500px;
+    align-items: center;
+}
+
+main h1{
+	margin: 0px;
+}
+
+
+
+footer{
+    display: flex;
+    background-color:#dcdcdc;
+    justify-content: space-around;
+    color: #808080;
+    height: 50px;
+    align-items: center;
+    padding-right: 400px;
+    
+}
+
+main {
+    
+    background-color:#dcdcdc;
+    justify-content: space-around;
+    color: grey ;
+    height: 500px;
+    align-items: center;
+}
+
+main h1{
+	padding-left: 140px;
+	margin: 0px;
+}
+main h2{
+	padding-left: 140px;
+}
+main h3{
+	padding-left: 630px;
+}
+
+img.tengah{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

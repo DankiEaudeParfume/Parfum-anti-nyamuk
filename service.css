@@ -76,6 +76,15 @@ footer{
     height: 100px;
     align-items: center;
 }
+
+main{
+    display: flex;
+    background-color:white;
+    color: #808080;
+    height: 410px;
+    padding-left:70px;
+}
+
 ul{
       padding-left: 240px;
       padding-right: 50px;

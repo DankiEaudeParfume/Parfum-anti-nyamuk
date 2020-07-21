@@ -88,6 +88,15 @@ table tr td p{
 color:black;
 }
 
+ul{
+      padding-left: 240px;
+      padding-right: 50px;
+}
+
+.header-logo{
+      padding-right:250px;
+}
+
 footer a{
  color: #808080;
 }

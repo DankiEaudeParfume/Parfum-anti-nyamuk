@@ -80,10 +80,12 @@ padding-right: 425px;
 
 
 img.kualitas {
-    display: inline-block;
+    display: flex;
+       align-items: center;
+     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-margin-top:60px;
+
 }
 
 

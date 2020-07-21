@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Domine', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+
+/*bagian header*/
+
+header {
+    font-family:"Times new roman";
+}
+
+header nav {
+    display: flex;
+    background-color:#dcdcdc;
+    justify-content: space-around;
+    color: #808080;
+    height: 100px;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 30px;
+    a
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    width: 45%;
+     justify-content: space-between;
+
+}
+
+header nav ul li a {
+      color: #808080;
+    text-decoration: none;
+    font-size: 20px;
+     justify-content: space-between;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
+//////////////////////////////////////////
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    
+}
+.top-wrapper{
+    background-color:#dcdcdc;
+}
+//////////////////////////////////////////
+.btn-wrapper {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 45px;
+    padding-right: 45px;
+    line-height: 10px;
+}
+
+
+.signup {
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+   background-color: #ffc0cb;
+   transform:translateX(350%);
+}
+
+.signup:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn a {
+    text-decoration: none;
+    color: grey;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+            font-size: 20px;
+}
+
+main {
+    display: flex;
+    background-color:#dcdcdc;
+    justify-content: space-around;
+    color: #808080;
+    height: 500px;
+    align-items: center;
+}
+
+footer{
+height: 100px;
+background-color:#dcdcdc;
+}
